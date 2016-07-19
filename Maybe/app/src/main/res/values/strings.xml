@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Maybe</string>
+    <string name="hello_word">Bienvenid@</string>
+    <string name="action_settings">Settings</string>
+    <string name="little_activity_class_menu_principal">Inicio</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!---Botones inicio-->
+
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="tip_register">New to Maybe? Register here</string>
+    <string name="title_activity_register">Register</string>
+    <string name="maybecolorlittle_png">maybecolorlittle.png</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+
+    </string>
+    <string name="registerHere">New to Maybe? Register Here</string>
+
+
+</resources>
