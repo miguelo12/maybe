@@ -1,19 +1,15 @@
 package com.example.kattysanzana.maybe;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 
-public class ScrollingActivity extends AppCompatActivity {
+public class ScrollingActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_scrolling);
-        Toolbar toolbar = (Toolbar) findViewById (R.id.toolbar);
+        /** Toolbar toolbar = (Toolbar) findViewById (R.id.toolbar);
         setSupportActionBar (toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById (R.id.fab);
@@ -25,6 +21,6 @@ public class ScrollingActivity extends AppCompatActivity {
                         .setAction ("Action", null).show ();
             }
         });
-        getSupportActionBar ().setDefaultDisplayHomeAsUpEnabled (true);
+        getSupportActionBar ().setDefaultDisplayHomeAsUpEnabled (true); **/
     }
 }

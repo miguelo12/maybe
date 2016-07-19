@@ -36,6 +36,10 @@
 
     </string>
     <string name="registerHere">New to Maybe? Register Here</string>
+    <string name="new_to_maybe_register_here">New to Maybe? Register Here</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="bienvenid">Bienvenid@</string>
 
 
 </resources>

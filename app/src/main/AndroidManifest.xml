@@ -7,25 +7,45 @@
     <uses-permission android:name="android.permission.READ_PROFILE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-                  android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+
+        <activity
+            android:name="com.example.kattysanzana.maybe.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityRegister"></activity>
-        <activity android:name=".Class_Menu_Principal"></activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".ScrollingActivity"></activity>
-        <activity android:name=".SecondActivity"></activity>
+
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".ActivityRegister"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/app_name" >
+        </activity>
+
     </application>
 
 </manifest>
